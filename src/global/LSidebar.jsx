@@ -46,19 +46,19 @@ const LSidebar = () => {
   return (
       <Box
         sx={{
-          "& .pro-sidebar-inner": {
+          "& .ps-sidebar-container": {
             background: `${colors.primary[400]} !important`,
           },
-          "& .pro-icon-wrapper": {
+          "& .ps-menu-icon": {
             backgroundColor: "transparent !important",
           },
-          "& .pro-inner-item": {
+          "& .ps-inner-item": {
             padding: "5px 35px 5px 20px !important",
           },
-          "& .pro-inner-item:hover": {
+          "& .ps-menu-button:hover": {
             color: "#868dfb !important",
           },
-          "& .pro-menu-item.active": {
+          "& .ps-menu-button.ps-active": {
             color: "#6870fa !important",
           },
         }}
