@@ -4,11 +4,11 @@ import Dashboard from '../pages/dashboard/Dashboard';
 import Team from "../pages/team/Team";
 import Invoices from '../pages/invoices/Invoices';
 import Contacts from '../pages/contact/Contacts';
-import Bar from '../pages/dashboard/Bar'
+import Bar from '../pages/bar/Bar'
 import Form from '../pages/form/Form';
 import Pie from '../pages/dashboard/Pie';
-import FAQ from '../pages/dashboard/FAQ'
-import Calender from '../pages/dashboard/Calender';
+import FAQ from '../pages/faq/FAQ'
+import Calendar from '../pages/calendar/Calendar';
 import Geography from '../pages/dashboard/Geography';
 
 
@@ -24,7 +24,7 @@ const Approute = () => {
       <Route path='/Pie' element={<Pie/>}/>
       <Route path='/faq' element={<FAQ/>}/>
       <Route path='/geography' element={<Geography/>}/>
-      <Route path='/calender' element={<Calender/>}/>
+      <Route path='/calendar' element={<Calendar/>}/>
     </Routes>
   )
 }
