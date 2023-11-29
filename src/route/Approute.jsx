@@ -1,11 +1,11 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom';
 import Dashboard from '../pages/dashboard/Dashboard';
-import Team from "../pages/dashboard/Team";
-import Invoices from '../pages/dashboard/Invoices';
-import Contacts from '../pages/dashboard/Contacts';
+import Team from "../pages/team/Team";
+import Invoices from '../pages/invoices/Invoices';
+import Contacts from '../pages/contact/Contacts';
 import Bar from '../pages/dashboard/Bar'
-import Form from '../pages/dashboard/Form';
+import Form from '../pages/form/Form';
 import Pie from '../pages/dashboard/Pie';
 import FAQ from '../pages/dashboard/FAQ'
 import Calender from '../pages/dashboard/Calender';
